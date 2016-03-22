@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-
-<GridPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65" fx:controller="br.univel.TelaPrincipalController">
+<GridPane xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.univel.TelaPrincipalController">
    <rowConstraints>
       <RowConstraints minHeight="10.0" prefHeight="30.0" />
       <RowConstraints minHeight="10.0" prefHeight="30.0" />
@@ -20,7 +19,6 @@
    <children>
       <Label text="Nome" />
       <TextField fx:id="campo" GridPane.columnIndex="1" />
-      <Button mnemonicParsing="false" text="Button" />
-      <Button fx:id="botao" mnemonicParsing="false" onAction="#executar" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button fx:id="botao" mnemonicParsing="false" onAction="#executar" text="Botao" GridPane.columnIndex="1" GridPane.rowIndex="1" />
    </children>
 </GridPane>
